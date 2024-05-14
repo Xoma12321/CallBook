@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.mirea.kt.ribo.callbook.StartFragment"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_start" >
+        <action
+            android:id="@+id/action_startFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.mirea.kt.ribo.callbook.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_createNewContact"
+            app:destination="@id/createNewContact" />
+        <action
+            android:id="@+id/action_mainFragment_to_openContactView"
+            app:destination="@id/openContactView" />
+    </fragment>
+    <fragment
+        android:id="@+id/createNewContact"
+        android:name="com.mirea.kt.ribo.callbook.CreateNewContact"
+        android:label="fragment_create"
+        tools:layout="@layout/fragment_create" />
+    <fragment
+        android:id="@+id/openContactView"
+        android:name="com.mirea.kt.ribo.callbook.OpenContactView"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" />
+</navigation>

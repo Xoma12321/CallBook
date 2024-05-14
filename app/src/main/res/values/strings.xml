@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Телефонная Книга</string>
+    <string name="auntification">Авторизация</string>
+    <string name="login">Логин</string>
+    <string name="password"> Пароль</string>
+    <string name="entry">Войти</string>
+    <string name="TEST">Результат запроса</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name_rus">Телефонная книга</string>
+    <string name="author">Разработчик: Хомяков Д.В. РИБО-05-22 Вариант 137</string>
+    <string name="search">Поиск</string>
+    <string name="contact_name">Название контакта:</string>
+    <string name="contact_phonenumber">Номер телефона:</string>
+    <string name="add_contact_name">Введите название</string>
+    <string name="add_phonenumber">Введите номер</string>
+    <string name="create">Создать</string>
+    <string name="name">Имя:</string>
+</resources>
